@@ -1,0 +1,16 @@
+
+# Core
+speechrecognition>=3.8.1
+
+# TTS and audio (optional)
+pyttsx3>=2.90
+pywin32>=305
+gTTS>=2.3.0
+pygame>=2.1.0
+
+# Optional modern UI
+customtkinter>=6.4.0 ; platform_system == "Windows"
+
+# Microphone helper (Windows): install via pipwin if pyaudio install fails
+pyaudio>=0.2.11
+pipwin>=0.5.1
